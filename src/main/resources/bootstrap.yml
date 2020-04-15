@@ -1,0 +1,6 @@
+
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%date{ISO8601} %-5level [%thread] [%file:%line %M] - %msg %n"
